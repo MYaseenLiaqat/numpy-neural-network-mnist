@@ -1,0 +1,3 @@
+Implementation,Test Accuracy,Training Time (seconds)
+NumPy From Scratch,0.907,43.289843797683716
+PyTorch,0.9161999821662903,44.74092650413513
