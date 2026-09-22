@@ -113,6 +113,13 @@ The confusion matrix shows the classification performance of the NumPy
 neural network across all ten digit classes and highlights which digits are
 most frequently confused with one another.
 
+## Neural Network Architecture
+
+The model is a fully connected neural network with 784 input features,
+128 hidden neurons, and 10 output classes.
+
+<img src="results/neural_network_architecture.png" width="900">
+
 ## Custom Digit Testing
 
 The trained models were also tested using custom MNIST-style handwritten
