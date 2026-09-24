@@ -84,21 +84,21 @@ The results represent a single training run on the development machine.
 
 ### Training Loss
 
-<img src="results/training_loss_comparison.png" width="700">
+<img src="results/training_loss_comparison.png" width="600">
 
 The training loss decreases across the five epochs for both implementations,
 showing that the models are learning from the training data.
 
 ### Test Accuracy
 
-<img src="results/test_accuracy_comparison.png" width="700">
+<img src="results/test_accuracy_comparison.png" width="600">
 
 The NumPy implementation achieved **90.70%** test accuracy, while the PyTorch
 implementation achieved **91.62%** on the same MNIST test set.
 
 ### Training Time
 
-<img src="results/training_time_comparison.png" width="700">
+<img src="results/training_time_comparison.png" width="600">
 
 The measured training times were **43.29 seconds for NumPy** and
 **44.74 seconds for PyTorch** in this run.
